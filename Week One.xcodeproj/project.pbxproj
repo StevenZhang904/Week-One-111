@@ -24,6 +24,7 @@
 		77D5614323CD290F0039B795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D5614623CD290F0039B795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D5614823CD290F0039B795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D5614E23CD291B0039B795 /* Week One.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Week One.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		77D5613923CD290E0039B795 /* Week One */ = {
 			isa = PBXGroup;
 			children = (
+				77D5614E23CD291B0039B795 /* Week One.entitlements */,
 				77D5613A23CD290E0039B795 /* AppDelegate.swift */,
 				77D5613C23CD290E0039B795 /* SceneDelegate.swift */,
 				77D5613E23CD290E0039B795 /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Week One/Week One.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Week One/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Steven.Week-One";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Week One/Week One.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Week One/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Steven.Week-One";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

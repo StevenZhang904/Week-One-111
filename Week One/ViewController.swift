@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var massageButton: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+//123
+    @IBAction func sayItPressed(_ sender: UIButton) {
+        massageButton.text="Swiftacular"
+    }
+    
 }
 
